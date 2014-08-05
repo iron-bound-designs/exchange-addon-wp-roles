@@ -3,7 +3,7 @@
  * Plugin Name: iThemes Exchange - Assign WP Roles Add-on
  * Plugin URI: http://ironbounddesigns.com
  * Description: Assign WP Roles when a product is purchased
- * Version: 0.9
+ * Version: 0.9.1
  * Author: Iron Bound Designs
  * Author URI: http://ironbounddesigns.com
  * License: GPL2

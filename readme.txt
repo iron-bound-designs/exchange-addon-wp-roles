@@ -4,7 +4,7 @@ Donate link: http://ironbounddesigns.com/
 Tags: iThemes Exchange, addon, ecommerce, roles, wp roles
 Requires at least: 3.9
 Tested up to: 4.0
-Stable tag: 0.9
+Stable tag: 0.9.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,9 @@ Recommended only for use with multi-item cart disabled. Or in circumstances when
 4. Activate the plugin through the 'Plugins' menu in WordPress Administration.
 
 == Changelog ==
+
+= 0.9.1 =
+* BUG: Users would be assigned a role of -- Disabled -- when purchasing a membership product with no role assigned
 
 = 0.9 =
 * Initial Release
