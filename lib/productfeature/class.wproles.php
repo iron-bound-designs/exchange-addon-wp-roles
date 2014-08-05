@@ -35,7 +35,7 @@ class ITEWPR_ProductFeature_WPRoles extends IT_Exchange_Product_Feature_Abstract
 
 		<label for="itewpr-role-select"><?php _e( "Select a role", IT_Exchange_WP_Roles_Addon::SLUG ); ?></label>
 		<select id="itewpr-role-select" name="ite_wpr_role_select">
-			<option> -- Disabled --</option>
+			<option value="-1"> -- Disabled --</option>
 			<?php wp_dropdown_roles( $selected ); ?>
 		</select>
 
@@ -56,7 +56,7 @@ class ITEWPR_ProductFeature_WPRoles extends IT_Exchange_Product_Feature_Abstract
 			return;
 		}
 
-		if ( ! empty( $_POST['ite_wpr_role_select'] ) ) {
+		if ( ! empty( $_POST['ite_wpr_role_select'] ) && $_POST['ite_wpr_role_select'] != '-1' ) {
 			$selected = sanitize_text_field( $_POST['ite_wpr_role_select'] );
 		} else {
 			$selected = false;
